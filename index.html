@@ -42,7 +42,7 @@
 		/>
 
 		<!-- Custom styles for this template -->
-		<link href="css/agency.min.css" rel="stylesheet" />
+		<link href="css/agency.css" rel="stylesheet" />
 	</head>
 
 	<body id="page-top">
@@ -99,12 +99,20 @@
 						Developer. Creative. Passionate.
 					</div>
 
-					<a
+					<!-- <a
 						class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
 						href="#about"
 					>
 						Scroll Down</a
-					>
+          > -->
+					<div class="btn-container">
+						<a
+							href="#about"
+							class="btn btn-primary scroll-btn js-scroll-trigger"
+						>
+							<i class="fas fa-angle-double-down"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -120,44 +128,46 @@
 						</h3>
 					</div>
 				</div>
-				<div class="align-middle">
-					<div class="row text-center">
-						<div class="col-md-6">
-							<!-- <span class="fa-stack fa-6x">
+
+				<div
+					class="row text-center"
+					style="display: flex; align-items: center;"
+				>
+					<div class="col-md-6">
+						<!-- <span class="fa-stack fa-6x">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
 						</span> -->
 
-							<img
-								class="img-thumbnail rounded-circle"
-								style="height: 400px; width: 400px;"
-								src="img/header/headshot.jpg"
-							/>
+						<img
+							class="img-thumbnail rounded-circle"
+							style="height: 400px; width: 400px;"
+							src="img/header/headshot.jpg"
+						/>
 
-							<!-- <h4 class="service-heading">E-Commerce</h4>
+						<!-- <h4 class="service-heading">E-Commerce</h4>
 						<p class="text-muted">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
 							maxime quam architecto quo inventore harum ex magni, dicta
 							impedit.
 						</p> -->
-						</div>
-						<div class="col-md-6">
-							<!-- <span class="fa-stack fa-6x">
+					</div>
+					<div class="col-md-6">
+						<!-- <span class="fa-stack fa-6x">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
 						</span> -->
-							<!-- <h4 class="service-heading">Responsive Design</h4> -->
-							<p class="text-muted text-justify">
-								A highly motivated and enthusiastic junior software developer,
-								with experience working independently and collaboratively using
-								a range of languages learned through General Assembly’s Software
-								Engineering Immersive and through independent practice.
-								Passionate and committed to learning and developing code,
-								striving to be the best I can possibly be in my field and
-								develop new skills.
-							</p>
-						</div>
-						<!-- <div class="col-md-4">
+						<!-- <h4 class="service-heading">Responsive Design</h4> -->
+						<p class="text-muted text-justify">
+							A highly motivated and enthusiastic junior software developer,
+							with experience working independently and collaboratively using a
+							range of languages learned through General Assembly’s Software
+							Engineering Immersive and through independent practice. Passionate
+							and committed to learning and developing code, striving to be the
+							best I can possibly be in my field and develop new skills.
+						</p>
+					</div>
+					<!-- <div class="col-md-4">
 						<span class="fa-stack fa-4x">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-lock fa-stack-1x fa-inverse"></i>
@@ -169,7 +179,6 @@
 							impedit.
 						</p>
 					</div> -->
-					</div>
 				</div>
 			</div>
 		</section>
@@ -511,12 +520,12 @@
 							<ul class="list-inline social-buttons">
 								<li class="list-inline-item">
 									<a href="#">
-										<i class="fab fa-twitter"></i>
+										<i class="fa fa-envelope"></i>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="#">
-										<i class="fab fa-facebook-f"></i>
+										<i class="fab fa-github"></i>
 									</a>
 								</li>
 								<li class="list-inline-item">
@@ -556,7 +565,7 @@
 							</li>
 							<li class="list-inline-item">
 								<a href="#">
-									<i class="fab fa-facebook-f"></i>
+									<i class="fab fa-github"></i>
 								</a>
 							</li>
 							<li class="list-inline-item">
