@@ -153,9 +153,9 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
 	color: #fed136;
-	font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-family: 'Share Tech Mono', monospace, 'Kaushan Script', -apple-system,
+		BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active,
@@ -635,6 +635,9 @@ header.masthead .intro-text .intro-heading {
 .team-member {
 	margin-bottom: 50px;
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .team-member img {
