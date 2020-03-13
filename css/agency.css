@@ -210,7 +210,7 @@ img::-moz-selection {
 header.masthead {
 	text-align: center;
 	color: white;
-	background-image: url('../img/header-bg-0.jpg');
+	background-image: url('../img/header/bg-04.jpg');
 	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
