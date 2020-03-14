@@ -695,8 +695,10 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
-	padding: 25px 0;
+	padding: 5px 0;
 	text-align: center;
+	background-color: #fff;
+	color: #000;
 }
 
 .footer span.copyright {
