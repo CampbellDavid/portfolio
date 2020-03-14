@@ -617,6 +617,15 @@ header.masthead .intro-text .intro-heading {
 	}
 }
 
+.final-timeline-link {
+	color: #ffffff;
+}
+
+.final-timeline-link:hover {
+	color: #949494;
+	text-decoration: none;
+}
+
 .contact-section {
 	margin-bottom: 50px;
 	text-align: center;
