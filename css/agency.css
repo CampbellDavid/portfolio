@@ -115,7 +115,7 @@ img::-moz-selection {
 .btn-primary:hover {
 	background-color: #3c6480 !important;
 	border-color: #3c6480 !important;
-	color: white;
+	color: #ffffff;
 }
 
 .btn-primary:active,
@@ -132,7 +132,7 @@ img::-moz-selection {
 	right: 0;
 	padding: 13px;
 	text-transform: uppercase;
-	color: white;
+	color: #ffffff;
 	border: 0;
 	background-color: #79caff;
 	font-family: 'Sen', sans-serif;
@@ -155,7 +155,7 @@ img::-moz-selection {
 	font-weight: 400;
 	padding: 0.75em 0;
 	letter-spacing: 1px;
-	color: white;
+	color: #ffffff;
 	font-family: 'Sen', sans-serif;
 }
 
@@ -192,7 +192,7 @@ img::-moz-selection {
 
 header.masthead {
 	text-align: center;
-	color: white;
+	color: #ffffff;
 	background-image: url('../img/header/bg-04.jpg');
 	height: 100%;
 	background-attachment: fixed;
@@ -438,7 +438,7 @@ header.masthead .intro-text .intro-heading {
 	width: 2px;
 	margin-left: -1.5px;
 	content: '';
-	background-color: #e9ecef;
+	background-color: #c4c4c4;
 }
 
 .timeline > li {
@@ -487,10 +487,10 @@ header.masthead .intro-text .intro-heading {
 	height: 80px;
 	margin-left: 0;
 	text-align: center;
-	color: white;
-	border: 7px solid #e9ecef;
+	color: #ffffff;
+	border: 7px solid #c4c4c4;
 	border-radius: 100%;
-	background-color: #79caff;
+	background-color: #3c6480;
 }
 
 .timeline > li .timeline-image h4 {
@@ -727,13 +727,13 @@ ul.social-buttons {
 
 ul.social-buttons li a {
 	font-size: 20px;
-	border: 1px solid white;
+	border: 1px solid #ffffff;
 	line-height: 50px;
 	display: block;
 	width: 50px;
 	height: 50px;
 	transition: all 0.3s;
-	color: white;
+	color: #ffffff;
 	border-radius: 100%;
 	outline: none;
 	background-color: #202428;
