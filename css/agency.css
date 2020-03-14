@@ -111,7 +111,6 @@ img::-moz-selection {
 }
 
 .btn-primary:active,
-.btn-primary:focus,
 .btn-primary:hover {
 	background-color: #3c6480 !important;
 	border-color: #3c6480 !important;
@@ -136,6 +135,13 @@ img::-moz-selection {
 	border: 0;
 	background-color: #79caff;
 	font-family: 'Sen', sans-serif;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:hover {
+	background-color: #3c6480 !important;
+	border-color: #3c6480 !important;
+	color: #ffffff;
 }
 
 #mainNav .navbar-brand {
@@ -739,8 +745,10 @@ ul.social-buttons li a {
 	background-color: #202428;
 }
 
-ul.social-buttons li a:active,
-ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
 	background-color: #79caff;
+}
+
+ul.social-buttons li a:active {
+	background-color: #3c6480;
 }
