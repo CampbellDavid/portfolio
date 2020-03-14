@@ -63,6 +63,11 @@ h6 {
 	font-family: 'Sen', sans-serif;
 }
 
+.bio-description {
+	font-family: 'Sen', sans-serif;
+	line-height: 20px;
+}
+
 .btn-container {
 	width: 100%;
 	height: max-content;
