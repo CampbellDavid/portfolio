@@ -157,7 +157,6 @@ img::-moz-selection {
 
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
-#mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
 	color: #3c6480;
 }
