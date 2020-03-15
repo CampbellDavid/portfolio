@@ -55,8 +55,8 @@ h6 {
 
 .profile-img {
 	border-radius: 50%;
-	height: 400px;
-	width: 400px;
+	max-width: 80%;
+	height: auto;
 }
 
 .description {
@@ -745,24 +745,27 @@ section#contact :-ms-input-placeholder {
 	font-family: 'Sen', sans-serif;
 }
 
-ul.social-buttons {
-	margin-bottom: 0;
+.social-buttons {
+	margin: 10px 30px;
 	height: max-content;
 	width: max-content;
 }
 
-.social-icon {
-	margin: 10px;
-	height: max-content;
+.bundle {
+	margin: 5px 0;
 	display: flex;
 	align-items: center;
 }
 
-.social-element {
-	margin: 5px;
+.social-element:first-child {
+	margin: 0 5px 0 0;
 }
 
-ul.social-buttons li a {
+.social-element:last-child {
+	margin: 0 0 0 5px;
+}
+
+.div-icon {
 	font-size: 20px;
 	border: 1px solid #ffffff;
 	line-height: 50px;
@@ -776,7 +779,11 @@ ul.social-buttons li a {
 	background-color: #202428;
 }
 
-ul.social-buttons li a:hover {
+.bundle:hover .div-icon {
 	background-color: #ffffff;
 	color: #202428;
+}
+
+.bundle:hover {
+	text-decoration: none;
 }
