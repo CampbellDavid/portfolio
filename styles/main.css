@@ -636,6 +636,16 @@ header.masthead .intro-text .intro-heading {
 	text-decoration: none;
 }
 
+.icon-container {
+	margin: 0 0 40px 0;
+}
+
+.icon-tag {
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Sen', sans-serif;
+}
+
 .contact-section {
 	margin-bottom: 50px;
 	text-align: center;
