@@ -647,12 +647,19 @@ header.masthead .intro-text .intro-heading {
 	text-decoration: none;
 }
 
+#skills {
+	color: #fff;
+	background-color: #4a525f;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .icon-container {
 	margin: 0 0 40px 0;
 }
 
 .icon-tag {
-	color: #000000;
+	color: #fff;
 	font-size: 16px;
 	font-family: 'Sen', sans-serif;
 }
@@ -680,13 +687,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
 	padding: 100px 0 150px 0;
-	background-color: #202428;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 section#contact .section-heading {
-	color: #fff;
+	color: #202428;
 }
 
 section#contact .form-group {
@@ -738,8 +742,6 @@ section#contact :-ms-input-placeholder {
 .footer {
 	padding: 5px 0;
 	text-align: center;
-	background-color: #fff;
-	color: #000;
 }
 
 .footer span.copyright {
@@ -769,6 +771,10 @@ section#contact :-ms-input-placeholder {
 	align-items: center;
 }
 
+.social-element {
+	color: #202428;
+}
+
 .social-element:first-child {
 	margin: 0 5px 0 0;
 }
@@ -779,21 +785,21 @@ section#contact :-ms-input-placeholder {
 
 .div-icon {
 	font-size: 20px;
-	border: 1px solid #ffffff;
+	border: 1px solid #202428;
 	line-height: 50px;
 	display: block;
 	width: 50px;
 	height: 50px;
 	transition: all 0.3s;
-	color: #ffffff;
+	color: #202428;
 	border-radius: 100%;
 	outline: none;
-	background-color: #202428;
+	background-color: #f8f9fa;
 }
 
 .bundle:hover .div-icon {
-	background-color: #ffffff;
-	color: #202428;
+	background-color: #202428;
+	color: #f8f9fa;
 }
 
 .bundle:hover {
