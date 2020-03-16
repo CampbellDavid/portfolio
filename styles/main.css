@@ -216,13 +216,13 @@ header.masthead {
 	background-size: cover;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	header.masthead {
 		background-image: linear-gradient(#4a525f, #111518);
 	}
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
 	header.masthead {
 		background-image: url('../img/header/bg-01.jpg');
 	}
