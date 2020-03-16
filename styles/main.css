@@ -668,6 +668,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
+	padding: 100px 0 150px 0;
 	background-color: #202428;
 	background-repeat: no-repeat;
 	background-position: center;
