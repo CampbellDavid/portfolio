@@ -225,18 +225,30 @@ header.masthead {
 @media screen and (max-width: 767px) {
 	header.masthead {
 		background-image: url('../img/header/bg-01-767.jpg');
+		background-attachment: fixed;
+		background-position: absolute;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 	header.masthead {
 		background-image: url('../img/header/bg-01-991.jpg');
+		background-attachment: fixed;
+		background-position: absolute;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
 @media screen and (min-width: 992px) {
 	header.masthead {
 		background-image: url('../img/header/bg-01-2400.jpg');
+		background-attachment: fixed;
+		background-position: absolute;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
