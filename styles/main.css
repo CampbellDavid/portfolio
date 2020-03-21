@@ -220,7 +220,8 @@ img::-moz-selection {
 	header.masthead {
 		text-align: center;
 		color: #ffffff;
-		background-image: linear-gradient(#4a525f, #111518);
+		background-image: url('../img/header/bg-01.jpg');
+		/* background-image: linear-gradient(#4a525f, #111518); */
 		/* height: 100%; */
 		background-repeat: no-repeat;
 		background-attachment: scroll;
@@ -235,9 +236,9 @@ img::-moz-selection {
 		color: #ffffff;
 		background-image: url('../img/header/bg-01.jpg');
 		/* height: 100%; */
+		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: absolute;
-		background-repeat: no-repeat;
 		background-size: cover;
 	}
 }
