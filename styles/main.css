@@ -211,7 +211,7 @@ header.masthead {
 	color: #ffffff;
 	background-image: url('../img/header/bg-01.jpg');
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
 }
