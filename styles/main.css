@@ -206,7 +206,7 @@ img::-moz-selection {
 	}
 }
 
-header.masthead {
+/* header.masthead {
 	text-align: center;
 	color: #ffffff;
 	height: 100%;
@@ -214,17 +214,31 @@ header.masthead {
 	background-position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 
 @media screen and (max-width: 991px) {
 	header.masthead {
+		text-align: center;
+		color: #ffffff;
 		background-image: linear-gradient(#4a525f, #111518);
+		/* height: 100%; */
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
 	}
 }
 
 @media screen and (min-width: 992px) {
 	header.masthead {
+		text-align: center;
+		color: #ffffff;
 		background-image: url('../img/header/bg-01.jpg');
+		/* height: 100%; */
+		background-attachment: fixed;
+		background-position: absolute;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
