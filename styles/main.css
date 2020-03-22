@@ -209,11 +209,11 @@ img::-moz-selection {
 header.masthead {
 	text-align: center;
 	color: #ffffff;
+	background-image: url('../img/header/bg-01.png');
 }
 
 @media screen and (max-width: 1199px) {
 	header.masthead {
-		background-image: url('../img/header/bg-01.png');
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		background-position: center center;
@@ -223,7 +223,6 @@ header.masthead {
 
 @media screen and (min-width: 1200px) {
 	header.masthead {
-		background-image: url('../img/header/bg-01.png');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: absolute;
