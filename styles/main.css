@@ -210,23 +210,20 @@ header.masthead {
 	text-align: center;
 	color: #ffffff;
 	background-image: url('../img/header/bg-01.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 @media screen and (max-width: 1199px) {
 	header.masthead {
-		background-repeat: no-repeat;
 		background-attachment: scroll;
-		background-position: center center;
-		background-size: cover;
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	header.masthead {
-		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-position: absolute;
-		background-size: cover;
 	}
 }
 
