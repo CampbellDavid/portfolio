@@ -59,6 +59,12 @@ h6 {
 	height: auto;
 }
 
+@media (max-width: 767px) {
+	.profile-img {
+		margin-bottom: 30px;
+	}
+}
+
 .description {
 	font-family: 'Sen', sans-serif;
 }
