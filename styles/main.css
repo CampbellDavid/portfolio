@@ -647,6 +647,14 @@ header.masthead .intro-text .intro-heading {
 	color: #ffffff;
 }
 
+.timeline-scroll-section {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .final-timeline-link:hover {
 	color: #949494;
 	text-decoration: none;
