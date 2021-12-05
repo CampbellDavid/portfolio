@@ -643,11 +643,9 @@ header.masthead .intro-text .intro-heading {
 	}
 }
 
-.final-timeline-link {
-	color: #ffffff;
-}
-
 .timeline-scroll-section {
+	border-radius: 100%;
+	color: #ffffff;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -655,7 +653,7 @@ header.masthead .intro-text .intro-heading {
 	align-items: center;
 }
 
-.final-timeline-link:hover {
+.timeline-scroll-section:hover {
 	color: #949494;
 	text-decoration: none;
 }
