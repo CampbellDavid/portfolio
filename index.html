@@ -589,9 +589,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12">
-            <span class="copyright text-dark"
-              >&copy; David Campbell - 2024</span
-            >
+            <span class="copyright text-dark" id="copyright-text"></span>
           </div>
         </div>
       </div>
@@ -606,5 +604,11 @@
 
     <!-- Additional JS -->
     <script src="scripts/app.js"></script>
+
+    <script>
+      const year = new Date().getFullYear();
+      const copyrightText = `&copy; David Campbell - ${year}`;
+      document.getElementById("copyright-text").innerHTML = copyrightText;
+    </script>
   </body>
 </html>
