@@ -46,4 +46,9 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+  // Set date to current year
+  const year = new Date().getFullYear();
+  const copyrightText = `&copy; David Campbell - ${year}`;
+  $("#copyright-text").html(copyrightText);
 })(jQuery); // End of use strict
