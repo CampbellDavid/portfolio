@@ -220,7 +220,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #ffffff;
-  background-image: url("../img/header/bg-01.png");
+  background-image: url("../images/header/bg-01.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
