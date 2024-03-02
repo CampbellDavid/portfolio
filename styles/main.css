@@ -1,11 +1,12 @@
 :root {
-  --mid-grey: #949494;
-  --light-grey: #c4c4c4;
-  --grey: #4a525f;
   --dark-grey: #343a40;
   --deep-grey: #202428;
+  --grey: #4a525f;
   --light-blue: #79caff;
+  --light-grey: #c4c4c4;
   --mid-blue: #3c6480;
+  --mid-grey: #949494;
+  --transparent-black: #0000001a;
   --transparent-blue: #79c9ffb3;
 }
 
@@ -680,7 +681,7 @@ header.masthead .intro-text .intro-heading {
 .contact-section img {
   width: 225px;
   height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
+  border: 7px solid var(--transparent-black);
 }
 
 .contact-section h4 {
