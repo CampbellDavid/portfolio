@@ -104,6 +104,11 @@ h6 {
   justify-content: center;
 }
 
+.devicon-container {
+  display: flex;
+  justify-content: center;
+}
+
 .scroll-btn {
   height: 90px;
   width: 90px;
