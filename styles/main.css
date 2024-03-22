@@ -816,3 +816,53 @@ section#contact :-ms-input-placeholder {
 .bundle:hover {
   text-decoration: none;
 }
+
+.l-body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.text {
+  letter-spacing: 1.7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  fill: #fff;
+}
+
+#rotatingText:hover {
+  animation-name: rotate-circle-hover;
+  animation-duration: 500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+#rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(-1turn);
+  }
+}
+
+@keyframes rotate-circle-hover {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.main i {
+  position: absolute;
+}
